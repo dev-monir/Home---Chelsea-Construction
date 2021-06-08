@@ -12,6 +12,27 @@ body{
 	height: 100px;
 	z-index: 1;
 }
+.btn_common{
+	padding: .5em 1em;
+	font-size: 14px;
+	background-color: #011e41;
+	border-color: #f3f8ff;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all 300ms ease 0ms;
+}
+
+.btn_carusal:hover{
+	border: 2px solid transparent;
+	color: #f3f8ff !important;
+	background-color: #4f6582;
+	border-color: #011e41 !important;
+	text-decoration: none;
+	transition: all 300ms ease 0ms;
+}
 
 #history_banner{
     background-blend-mode: screen;
@@ -108,4 +129,9 @@ body{
 
 .toShow.expandText .toShow{
 	display: block;
+}
+
+#portfolio_btn{
+	background-color: #f3f8ff;
+	border: 1px solid #d9d9d9;;
 }

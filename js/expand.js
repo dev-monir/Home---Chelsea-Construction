@@ -1,6 +1,5 @@
-const btn = document.querySelector('.btnClickToShow');
-const text = document.querySelector('.toShow');
-btn.addEventListener('click',(e)=>{
-console.log('click')
-text.classList.toggle('expandText');
+const btn = document.getElementById('portfolio_btn');
+btn.addEventListener('click',function (){
+    const btnArea = document.getElementById("toShow");
+    btnArea.style.display="block";
 })
