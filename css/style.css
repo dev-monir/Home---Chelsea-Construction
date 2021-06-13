@@ -413,5 +413,22 @@ body{
 }
 
 
+/* stayle for service 1 page  */
+/* service1 */
+
+.et_pb_module_header{
+    color: #011e41 !important;
+    font-size: 22px;
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+}
 
 
+.btn_0{
+    border-radius: 0;
+    background-color: #011e41;
+    border: transparent;
+    color: #fff;
+}
