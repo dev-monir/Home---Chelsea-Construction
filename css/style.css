@@ -432,3 +432,12 @@ body{
     border: transparent;
     color: #fff;
 }
+
+
+/* contact page style  */
+
+.et_pb_section_0.et_pb_section {
+	padding-top: 94px;
+	padding-bottom: 95px;
+	background-color: #103356 !important;
+}
